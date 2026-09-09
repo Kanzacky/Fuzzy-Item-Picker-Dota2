@@ -2,6 +2,8 @@
 
 A web-based expert system that provides dynamic **Dota 2 hero item build recommendations** using **Fuzzy Logic**.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-fuzzy--item--picker--dota2.vercel.app-blue?style=for-the-badge&logo=vercel)](https://fuzzy-item-picker-dota2.vercel.app)
+
 ---
 
 ## Key Features
@@ -24,6 +26,14 @@ A web-based expert system that provides dynamic **Dota 2 hero item build recomme
 | **Styling** | Tailwind CSS v4 |
 | **Language** | TypeScript |
 | **Data Parsing** | CSV Parser via Fetch API |
+
+---
+
+## 🌐 Live Demo
+
+Try the live demo here:
+
+[![Open Live Demo](https://img.shields.io/badge/Open_fuzzy--item--picker--dota2.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://fuzzy-item-picker-dota2.vercel.app)
 
 ---
 
