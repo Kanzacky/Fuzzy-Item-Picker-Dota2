@@ -95,6 +95,23 @@ export default function Home() {
         </div>
       </div>
 
+       <section id="livedemo" className="px-[20px] md:px-[100px] py-[80px] bg-black text-center">
+        <h2 className="text-[30px] md:text-[40px] font-cinzel text-white mb-[20px]">
+          Live Demo
+        </h2>
+        <p className="text-[16px] text-gray-400 mb-[30px]">
+          Try it now — Fuzzy Item Picker for Dota 2
+        </p>
+        <a
+          href="https://fuzzy-item-picker-dota2.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-[30px] py-[14px] bg-accent-gold text-black font-bold text-[18px] rounded-[30px] no-underline transition-all duration-300 hover:scale-105 hover:bg-yellow-400"
+        >
+          Open Live Demo
+        </a>
+      </section>
+
       <Footer />
     </>
   );
