@@ -34,11 +34,8 @@ export default function Footer() {
                 </a>
             </div>
 
-            <p className="text-[12px] text-[#ccc]">
-                Dota and the Dota logo are trademarks and/or registered trademarks of
-                Valve Corporation.
-                <br />
-                2025 Valve Corporation, all rights reserved.
+            <p className="text-[12px] text-[#ccc] leading-relaxed">
+                &copy; 2025 Valve Corporation. All Rights Reserved.
             </p>
         </footer>
     );
