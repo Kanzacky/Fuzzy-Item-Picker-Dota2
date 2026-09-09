@@ -1,18 +1,18 @@
-# ⚡ Dota 2 Item Analyzer — Fuzzy Recommendation System
+# Dota 2 Item Analyzer — Fuzzy Recommendation System
 
 A web-based expert system that provides dynamic **Dota 2 hero item build recommendations** using **Fuzzy Logic**.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 🎯 **Dynamic Hero Selection** | Supports 40+ heroes with dynamically tailored analyzers |
-| 🧠 **Fuzzy Scoring Engine** | Computes item weights across 10 need parameters (Burst, Defense, CC, etc.) |
-| 📦 **Automated Registry** | Centralized management of hero metadata, descriptions, and abilities |
-| 📊 **CSV-Driven Data** | Item data sourced directly from `items_c45_ready.csv` |
-| 🎨 **Modern UI** | Built with Next.js 15, Tailwind CSS v4, and official Dota 2 assets |
+| **Dynamic Hero Selection** | Supports 40+ heroes with dynamically tailored analyzers |
+| **Fuzzy Scoring Engine** | Computes item weights across 10 need parameters (Burst, Defense, CC, etc.) |
+| **Automated Registry** | Centralized management of hero metadata, descriptions, and abilities |
+| **CSV-Driven Data** | Item data sourced directly from `items_c45_ready.csv` |
+| **Modern UI** | Built with Next.js 15, Tailwind CSS v4, and official Dota 2 assets |
 
 ---
 
@@ -27,7 +27,7 @@ A web-based expert system that provides dynamic **Dota 2 hero item build recomme
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -52,7 +52,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Fuzzy-Item-Picker-Dota2/
@@ -67,7 +67,7 @@ Fuzzy-Item-Picker-Dota2/
 
 ---
 
-## 📖 How It Works
+## How It Works
 
 1. **Select a Hero** — Choose from 40+ supported heroes
 2. **Fuzzy Evaluation** — The engine scores each item against 10 situational parameters
@@ -76,7 +76,7 @@ Fuzzy-Item-Picker-Dota2/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a PR.
 
@@ -88,6 +88,6 @@ Contributions are welcome! Please open an issue or submit a PR.
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions or feedback, feel free to reach out via GitHub Issues.
