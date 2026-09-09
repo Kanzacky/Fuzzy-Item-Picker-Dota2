@@ -76,6 +76,33 @@ Fuzzy-Item-Picker-Dota2/
 
 ---
 
+## Selected Works
+
+Here are some of my other projects:
+
+### 1. [kanzacky-link](https://github.com/Kanzacky/kanzacky-link)
+Personal digital business card and Linktree alternative. Built with Next.js and Tailwind CSS with a Bento Grid layout and micro-interactions.
+
+| Technology | |
+|---|---|
+| Next.js | Tailwind CSS | TypeScript |
+
+### 2. [Campus-Connect](https://github.com/Kanzacky/Campus-Connect)
+Centralized campus organization and event management platform for UNIPMA with role-based access control. Headless architecture using Laravel REST API and Next.js.
+
+| Technology | |
+|---|---|
+| Laravel | Next.js | TypeScript | Tailwind CSS |
+
+### 3. [ML-Prediksi-Penyakit-Jantung](https://github.com/Kanzacky/ML-Prediksi-Penyakit-Jantung)
+Fullstack Machine Learning application for predicting heart disease risk. Classification model built with Scikit-Learn, served via FastAPI REST API with React frontend.
+
+| Technology | |
+|---|---|
+| Python | FastAPI | React | Scikit-learn |
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a PR.
