@@ -13,9 +13,9 @@ export default function Home() {
 
         <div className="relative z-10 h-full w-full">
           <Navbar />
-          <div className="mt-[140px] ml-[80px]">
+          <div className="mt-[80px] md:mt-[140px] ml-[20px] md:ml-[80px] text-center md:text-left">
             <p className="text-[20px] mb-[10px] text-white">Uncover the Perfect Build</p>
-            <h1 className="text-[40px] font-cinzel leading-tight text-white">
+            <h1 className="text-[30px] md:text-[40px] font-cinzel leading-tight text-white">
               “Perfect Item Recommendations”
               <br />
               For Every Dota Hero
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="latest-news" className="px-[100px] py-[40px] bg-[#0f0f0f]">
+      <section id="latest-news" className="px-[20px] md:px-[100px] py-[40px] bg-[#0f0f0f]">
         <div className="flex justify-between mb-[25px] text-accent-gold">
           <h2 className="font-cinzel">LATEST NEWS</h2>
           <a
@@ -40,7 +40,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="grid grid-cols-3 gap-[25px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[25px]">
           <div className="bg-[#141414] border border-[#222] rounded-[8px] overflow-hidden transition-all duration-300 hover:-translate-y-[5px] hover:border-[#b22222]">
             <Image src="/file/dota2xmonsterhunter.jpeg" alt="dota2xmonsterhunter" width={400} height={225} className="w-full h-[180px] object-cover" />
             <div className="p-[15px]">
@@ -72,8 +72,8 @@ export default function Home() {
           <source src="/file/windranger.mp4" type="video/mp4" />
         </video>
 
-        <div id="join" className="relative z-10 ml-[100px] text-white">
-          <h1 className="text-[48px] font-cinzel mb-[20px]">
+        <div id="join" className="relative z-10 mx-[20px] md:ml-[100px] text-center md:text-left text-white">
+          <h1 className="text-[36px] md:text-[48px] font-cinzel mb-[20px]">
             JOIN THE
             <br />
             BATTLE

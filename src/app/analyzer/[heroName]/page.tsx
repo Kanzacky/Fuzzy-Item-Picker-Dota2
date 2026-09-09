@@ -158,18 +158,18 @@ export default function HeroAnalyzer({ params }: { params: Promise<{ heroName: s
                 <div className="relative z-10 pb-[100px]">
                     <Navbar />
 
-                    <div className="mt-[100px] ml-[80px]">
+                    <div className="mt-[60px] md:mt-[100px] mx-[20px] md:ml-[80px] md:mx-0 text-center md:text-left">
                         <p className="text-accent-gold font-cinzel tracking-[2px] font-bold uppercase transition-colors hover:text-white cursor-default">{hero.title}</p>
-                        <h1 className="font-cinzel text-[60px] my-[10px]">{hero.name}</h1>
+                        <h1 className="font-cinzel text-[40px] md:text-[60px] my-[10px]">{hero.name}</h1>
                         <h4 className="text-[18px] font-bold mb-2">{hero.subtitle}</h4>
                         <p className="text-[#ccc] max-w-2xl leading-relaxed whitespace-pre-line">
                             {hero.description}
                         </p>
                     </div>
 
-                    <div className="ml-[80px] mt-[40px]">
+                    <div className="mx-[20px] md:ml-[80px] md:mx-0 mt-[40px] text-center md:text-left">
                         <h4 className="font-bold mb-4 font-cinzel tracking-wider">ABILITIES</h4>
-                        <div className="flex gap-[15px]">
+                        <div className="flex flex-wrap justify-center md:justify-start gap-[15px]">
                             {hero.abilities.map((ability, idx) => (
                                 <Image
                                     key={idx}
@@ -185,7 +185,7 @@ export default function HeroAnalyzer({ params }: { params: Promise<{ heroName: s
                 </div>
             </header>
 
-            <div className="px-[80px] py-[60px] bg-dark-bg">
+            <div className="px-[20px] md:px-[80px] py-[60px] bg-dark-bg">
                 <div className="text-center mb-[40px] font-cinzel text-[24px] text-accent-gold border-b border-border-dark pb-[20px]">
                     <span>{hero.name} ITEM ANALYZER</span>
                 </div>

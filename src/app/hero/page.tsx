@@ -61,7 +61,7 @@ export default function HeroPage() {
                 <Navbar />
 
                 <div className="text-center mt-[60px]">
-                    <h1 className="text-[40px] font-cinzel leading-tight mb-2">CHOOSE YOUR HERO</h1>
+                    <h1 className="text-[30px] md:text-[40px] font-cinzel leading-tight mb-2">CHOOSE YOUR HERO</h1>
                     <p className="text-[18px]">
                         Discover the hero that fits your playstyle and get the most
                         accurate <br />
@@ -72,13 +72,13 @@ export default function HeroPage() {
                 </div>
             </header>
 
-            <section id="hero-selection" className="px-[80px] py-[20px] pb-0 bg-black">
+            <section id="hero-selection" className="px-[20px] md:px-[80px] py-[20px] pb-0 bg-black">
                 <div className="text-center">
                     <input
                         type="text"
                         id="hero-search"
                         placeholder="SEARCH FOR HEROES..."
-                        className="px-[20px] py-[12px] w-[60%] border border-accent-gold bg-[#111] text-white text-[18px] mb-[40px] rounded-[4px] focus:outline-none"
+                        className="px-[20px] py-[12px] w-[90%] md:w-[60%] border border-accent-gold bg-[#111] text-white text-[18px] mb-[40px] rounded-[4px] focus:outline-none"
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                     />
@@ -105,9 +105,9 @@ export default function HeroPage() {
                     <source src="/file/windranger.mp4" type="video/mp4" />
                 </video>
 
-                <div id="join" className="relative z-10 ml-[100px]">
+                <div id="join" className="relative z-10 mx-[20px] md:ml-[100px] text-center md:text-left">
                     <div className="about-content text-white">
-                        <h1 className="text-[48px] font-cinzel mb-[20px]">
+                        <h1 className="text-[36px] md:text-[48px] font-cinzel mb-[20px]">
                             JOIN THE
                             <br />
                             BATTLE
