@@ -7,9 +7,13 @@ export default function Home() {
   return (
     <>
       <header id="header" className="relative h-screen overflow-hidden bg-black">
-        <video id="banner-video" autoPlay loop muted playsInline poster="/file/dota2.jpg" className="absolute top-1/2 left-1/2 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 z-0 brightness-90 contrast-125 saturate-110">
-          <source src="/file/banerhome.mp4" type="video/mp4" />
-        </video>
+        <Image
+          src="/file/dotalanding.jpg"
+          alt="Dota 2 Landing"
+          fill
+          priority
+          className="object-cover z-0 brightness-90 contrast-125 saturate-110"
+        />
 
         <div className="relative z-10 h-full w-full">
           <Navbar />
