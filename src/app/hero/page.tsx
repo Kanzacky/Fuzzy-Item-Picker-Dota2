@@ -101,7 +101,7 @@ export default function HeroPage() {
             </div>
 
             <div id="about" className="relative w-full py-[80px] overflow-hidden bg-black">
-                <video autoPlay loop muted className="absolute top-0 left-1/2 w-full h-full object-cover object-[30%_18%] -translate-x-1/2 z-0 brightness-75">
+                <video autoPlay loop muted playsInline poster="/file/dota2.jpg" className="absolute top-0 left-1/2 w-full h-full object-cover object-[30%_18%] -translate-x-1/2 z-0 brightness-75">
                     <source src="/file/windranger.mp4" type="video/mp4" />
                 </video>
 
