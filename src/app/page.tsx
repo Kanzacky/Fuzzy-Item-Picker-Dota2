@@ -6,13 +6,13 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <header id="header" className="relative h-screen overflow-hidden bg-black">
+<header id="header" className="relative h-screen overflow-hidden bg-black">
         <Image
-          src="/file/dotalanding.jpg"
+          src="/file/muerta.png"
           alt="Dota 2 Landing"
           fill
           priority
-          className="object-cover z-0 brightness-90 contrast-125 saturate-110"
+          className="object-cover z-0 brightness-75"
         />
 
         <div className="relative z-10 h-full w-full">
