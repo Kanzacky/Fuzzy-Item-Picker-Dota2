@@ -1,17 +1,26 @@
-# Lina Itemizer 
-A Dota 2 item recommendation system for the hero **Lina**, powered by **Fuzzy Logic**.
+# ⚡ Dota 2 Item Analyzer - Fuzzy Recommendation
 
-## Overview
-Lina Itemizer processes game data to calculate the most effective item builds based on real-time situational needs. It uses fuzzy logic to weigh different attributes (Burst, Defense, CC) to provide the optimal item score.
+Sistem pakar berbasis web untuk memberikan rekomendasi build item hero **Dota 2** secara dinamis menggunakan **Logika Fuzzy**.
 
-## Key Features
-* **Fuzzy Logic Engine:** Dynamically calculates item priority based on game context.
-* **Situation-Based Scoring:** Categorizes recommendations into **Burst Damage**, **Defense**, and **Crowd Control (CC)**.
-* **Dynamic Data:** Processes CSV datasets using the **Fetch API** for real-time item analysis.
+## 🚀 Fitur Utama
+- **Dynamic Hero Selection**: Mendukung 40+ hero dengan analyzer yang disesuaikan secara dinamis.
+- **Fuzzy Scoring Engine**: Menghitung bobot item berdasarkan 10 parameter kebutuhan (Burst, Defense, CC, dll).
+- **Automated Registry**: Metadata hero, deskripsi, dan kemampuan dikelola melalui registry terpusat.
+- **CSV Driven**: Data item diambil langsung dari `items_c45_ready.csv`.
+- **Modern UI**: Dibangun dengan Next.js 15, Tailwind CSS v4, dan aset resmi Dota 2.
 
-## Technologies Used
-* **Vanilla JavaScript** – Core logic and Fuzzy calculation.
-* **CSS3 & HTML5** – Responsive and clean user interface.
+## 🛠️ Teknologi
+- **Framework**: Next.js 15 (Turbopack)
+- **Styling**: Tailwind CSS v4
+- **Language**: TypeScript
+- **Data**: CSV Parser via Fetch API
 
-## Goal
-To provide high-accuracy item builds that adapt to the specific flow of a Dota 2 match.
+## 🏃 Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
